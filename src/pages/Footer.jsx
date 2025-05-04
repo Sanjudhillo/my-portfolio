@@ -15,8 +15,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {/* About Section */}
                     <div className="space-y-4">
-                        <h3 className="text-2xl font-bold bg-gradient-to-r from-cya
-                        n-400 to-cyan-800 bg-clip-text text-transparent">About Me</h3>
+                        <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-cyan-600 bg-clip-text text-transparent">About Me</h3>
                         <p className="text-gray-400">A passionate MERN-stack developer focused on creating innovative and user-friendly applications.</p>
                     </div>
 
