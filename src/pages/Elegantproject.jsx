@@ -6,7 +6,7 @@ const Elegantproject = () => {
             <div className="relative h-full w-full bg-black rounded-[32px] overflow-hidden">
                 {/* Background Image with Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-black/60 to-black/30 z-0"></div>
-                <div className="absolute inset-0 bg-[url(/lady.avif)] bg-cover bg-center "></div>
+                <div className="absolute inset-0 bg-[url(src/assets/lady.avif)] bg-cover bg-center "></div>
                 
                 {/* Content Section */}
                 <div className="relative z-10 h-full flex flex-col justify-between p-8">

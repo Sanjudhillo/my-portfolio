@@ -6,11 +6,11 @@ const Profile = () => {
             <div className="relative flex h-full w-full bg-black rounded-[32px] overflow-hidden">
                 {/* Background Video */}
                 <video 
-                    loop 
-                    muted 
                     autoPlay 
+                    muted 
+                    loop 
                     className="absolute h-full w-full object-cover opacity-40"
-                    src="src/assets/star.mp4"
+                    src="/star.mp4"
                 ></video>
 
                 {/* Content Container */}
@@ -19,16 +19,16 @@ const Profile = () => {
                     <div className="w-1/3 flex justify-center">
                         <div className="relative group">
                             <img 
-                                className="rounded-full h-[45vh] border-4 border-white/70 transition-all duration-300 group-hover:scale-105 group-hover:border-white" 
                                 src="/myImage.jpg" 
                                 alt="Sanju's Profile" 
+                                className="rounded-full h-[45vh] border-4 border-white/70 transition-all duration-300 group-hover:scale-105 group-hover:border-white" 
                             />
                             <div className="absolute inset-0 rounded-full bg-white/20 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                         </div>
                     </div>
 
                     {/* Right Section - Content */}
-                    <div className="w-2/3 text-white space-y-6">
+                    <div className="w-2/3 text-white space-y-6 pl-8">
                         <div className="space-y-2">
                             <h1 className="text-4xl font-bold uppercase tracking-wider">
                                 Hi, I'm <span className="text-white group-hover:text-gray-200 transition-colors">Sanju</span>
