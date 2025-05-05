@@ -25,7 +25,7 @@ const App=() =>{
     <Profile />
     <Elegantproject />
     <About />
-    <Passionate />
+    {/* <Passionate /> */}
     <Portfolio />
     <CardSection />
     <Footer />

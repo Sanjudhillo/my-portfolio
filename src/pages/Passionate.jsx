@@ -19,7 +19,7 @@ const Passionate = () => {
                                         PASSIONATE
                                     </h1>
                                     <div className="flex items-center gap-4">
-                                        <div className="h-1 w-12 bg-cyan-400"></div>
+                                        <div className="h-1 w-12 bg-white/70"></div>
                                         <p className="text-xl font-[anzo2] text-gray-300">
                                             LEARNER | INNOVATOR | DEVELOPER
                                         </p>
@@ -31,12 +31,12 @@ const Passionate = () => {
                                 </p>
 
                                 <div className="flex flex-wrap gap-4">
-                                    <div className="group p-4 bg-black/40 rounded-lg backdrop-blur-sm border border-cyan-400/20 hover:border-cyan-400/40 hover:bg-black/60 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/20">
-                                        <h3 className="text-cyan-400 font-[anzo2] mb-2 group-hover:text-white transition-colors duration-300">Education</h3>
+                                    <div className="group p-4 bg-black/40 rounded-lg backdrop-blur-sm border border-white/20 hover:border-white/40 hover:bg-black/60 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/20">
+                                        <h3 className="text-white font-[anzo2] mb-2 group-hover:text-white transition-colors duration-300">Education</h3>
                                         <p className="text-gray-300 text-sm group-hover:text-gray-100 transition-colors duration-300">B.Tech in Computer Science, pursuing practical excellence</p>
                                     </div>
-                                    <div className="group p-4 bg-black/40 rounded-lg backdrop-blur-sm border border-cyan-400/20 hover:border-cyan-400/40 hover:bg-black/60 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/20">
-                                        <h3 className="text-cyan-400 font-[anzo2] mb-2 group-hover:text-white transition-colors duration-300">Goals</h3>
+                                    <div className="group p-4 bg-black/40 rounded-lg backdrop-blur-sm border border-white/20 hover:border-white/40 hover:bg-black/60 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/20">
+                                        <h3 className="text-white font-[anzo2] mb-2 group-hover:text-white transition-colors duration-300">Goals</h3>
                                         <p className="text-gray-300 text-sm group-hover:text-gray-100 transition-colors duration-300">Seeking opportunities to grow and contribute meaningfully</p>
                                     </div>
                                 </div>
@@ -50,10 +50,10 @@ const Passionate = () => {
                                         <p className="text-gray-300">Let's work together on exciting projects and create impactful solutions</p>
                                     </div>
                                     
-                                    <button className="group relative px-8 py-4 text-white font-[anzo2] rounded-full border-2 border-cyan-400/30 hover:border-cyan-400/60 hover:bg-cyan-400/10 transition-all duration-300 backdrop-blur-sm">
+                                    <button className="group relative px-8 py-4 text-white font-[anzo2] rounded-full border-2 border-white/30 hover:border-white/60 hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
                                         <span className="flex items-center gap-3">
                                             Let's Connect
-                                            <span className="text-cyan-400 transform group-hover:translate-x-1 transition-transform duration-300">→</span>
+                                            <span className="text-white transform group-hover:translate-x-1 transition-transform duration-300">→</span>
                                         </span>
                                     </button>
                                 </div>

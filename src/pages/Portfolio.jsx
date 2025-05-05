@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <div className="relative z-10 h-full flex flex-col justify-center">
                     <div className="w-full max-w-7xl mx-auto px-8 pt-24">
                         {/* Main Heading */}
-                        <div className="text-center py-12">
+                        <div className="text-center py-12 px-[3vh]">
                             <h1 className="text-[10vw] font-[anzo3] text-white tracking-tight leading-none mb-6">
                                 MY PORTFOLIO
                             </h1>

@@ -22,22 +22,22 @@ const CardSection = () => {
 
                 <div className="flex items-center text-center itmes-center flex-row h-full w-full justify-between p-[10vh] relative z-10">
                     {/* EMS Project */}
-                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-cyan-400/70 hover:scale-[1.02] hover:shadow-2xl hover:shadow-cyan-400/20 hover:h-[80vh]"> 
+                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]"> 
                         <div className="p-[5vh] h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
-                                    <p className="text-lg text-cyan-400">React Project</p>
+                                    <p className="text-lg text-white">React Project</p>
                                     <h4 className="text-2xl text-white mt-2">EMS SYSTEM</h4>
                                     <p className="text-gray-300 mt-2">Employee Management System</p>
                                 </div>
                                 <div className="opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
                                     <h1 className="text-[3.5vw] font-semibold text-white mt-4">Features</h1>
                                     <ul className="mt-3 space-y-2 text-gray-300">
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all">• Employee Dashboard</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-75">• Performance Reviews</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-100">• Task Management</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-150">• Department Management</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-200">• Real-time Updates</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all">• Employee Dashboard</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-75">• Performance Reviews</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-100">• Task Management</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-150">• Department Management</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-200">• Real-time Updates</li>
                                     </ul>
                                 </div>
                             </div>
@@ -54,23 +54,23 @@ const CardSection = () => {
                         </div>
                     </div>
 
-                    {/* Stone Paper Scissors Game */}
-                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-cyan-400/70 hover:scale-[1.02] hover:shadow-2xl hover:shadow-cyan-400/20 hover:h-[80vh]">
+                    {/* Game Project */}
+                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
                         <div className="p-[5vh] h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
-                                    <p className="text-lg text-cyan-400">JavaScript Game</p>
+                                    <p className="text-lg text-white">JavaScript Game</p>
                                     <h4 className="text-2xl text-white mt-2">STONE PAPER SCISSORS</h4>
                                     <p className="text-gray-300 mt-2">Classic Game Implementation</p>
                                 </div>
                                 <div className="opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
                                     <h1 className="text-[3.5vw] font-semibold text-white mt-4">Features</h1>
                                     <ul className="mt-3 space-y-2 text-gray-300">
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all">• Interactive Gameplay</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-75">• Score Tracking</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-100">• Responsive Design</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-150">• Smooth Animations</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-200">• User-Friendly Interface</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all">• Interactive Gameplay</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-75">• Score Tracking</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-100">• Responsive Design</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-150">• Smooth Animations</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-200">• User-Friendly Interface</li>
                                     </ul>
                                 </div>
                             </div>
@@ -87,23 +87,23 @@ const CardSection = () => {
                         </div>
                     </div>
 
-                    {/* OchiDesign Landing Page */}
-                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/ 70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-cyan-400/70 hover:scale-[1.02] hover:shadow-2xl hover:shadow-cyan-400/20  hover:h-[80vh] ">
+                    {/* Ochi Design Project */}
+                    <div className="group h-[30vh] w-[28vw] border-[3px] border-white/70 bg-black/20 rounded-[5vw] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
                         <div className="p-[5vh] h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
-                                    <p className="text-lg text-cyan-400">Animated Landing Page</p>
+                                    <p className="text-lg text-white">Animated Landing Page</p>
                                     <h4 className="text-2xl text-white mt-2">OCHIDESIGN</h4>
                                     <p className="text-gray-300 mt-2">Modern & Interactive Design</p>
                                 </div>
                                 <div className="opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
                                     <h1 className="text-[3.5vw] font-semibold text-white mt-4">Features</h1>
                                     <ul className="mt-3 space-y-2 text-gray-300">
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all">• Custom Cursor Effects</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-75">• Smooth Scroll Implementation</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-100">• Dynamic Color Schemes</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-150">• Interactive Image Galleries</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-cyan-400 transition-all delay-200">• Responsive Navigation</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all">• Custom Cursor Effects</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-75">• Smooth Scroll Implementation</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-100">• Dynamic Color Schemes</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-150">• Interactive Image Galleries</li>
+                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-200">• Responsive Navigation</li>
                                     </ul>
                                 </div>
                             </div>
