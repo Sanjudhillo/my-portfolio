@@ -1,20 +1,27 @@
-# Auto detect text files and perform LF normalization
-* text=auto eol=lf
+# Set default behavior to automatically normalize line endings
+* text=auto
 
-# JS/JSX files
+# Force batch scripts to always use CRLF line endings
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Force bash scripts to always use LF line endings
+*.sh text eol=lf
+
+# Text files that should use LF
 *.js text eol=lf
 *.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
 *.json text eol=lf
-
-# CSS files
 *.css text eol=lf
 *.scss text eol=lf
-
-# HTML files
 *.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
 
 # Documentation
-*.md text eol=lf
 *.txt text eol=lf
 
 # Images should be treated as binary
@@ -30,6 +37,4 @@
 *.woff binary
 *.woff2 binary
 
-*.{cmd,[cC][mM][dD]} text eol=crlf
-*.{bat,[bB][aA][tT]} text eol=crlf
 *.{ps1,[pP][sS]1} text eol=crlf 
