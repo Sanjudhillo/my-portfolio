@@ -45,11 +45,11 @@ const HeroSection = () => {
       id='Page1' 
       onMouseMove={mouseMoving}
       onMouseLeave={handleMouseLeave}
-      className='h-screen bg-white p-2 sm:p-4 lg:p-6 xl:p-8 overflow-hidden'
+      className='h-screen bg-white p-1 sm:p-2 md:p-4 lg:p-6 xl:p-8 overflow-hidden'
     >
       <div 
         id='page-in' 
-        className='relative shadow-xl p-4 sm:p-6 lg:p-8 xl:p-12 shadow-gray-700 h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)] lg:h-[calc(100vh-3rem)] xl:h-[calc(100vh-4rem)] w-full rounded-[20px] sm:rounded-[25px] lg:rounded-[30px] xl:rounded-[40px] overflow-hidden'
+        className='relative shadow-xl p-2 sm:p-4 md:p-6 lg:p-8 xl:p-12 shadow-gray-700 h-[calc(100vh-0.5rem)] sm:h-[calc(100vh-1rem)] md:h-[calc(100vh-2rem)] lg:h-[calc(100vh-3rem)] xl:h-[calc(100vh-4rem)] w-full rounded-[15px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[40px] overflow-hidden'
       >
         {/* Background Image with Gradient Overlay */}
         <div 
@@ -69,7 +69,7 @@ const HeroSection = () => {
           {/* Logo */}
           <div className="flex-none">
             <img 
-              className='h-12 sm:h-14 lg:h-16 xl:h-20 w-auto ml-4 sm:ml-6 lg:ml-8 xl:ml-12 mt-4 sm:mt-6 lg:mt-8 xl:mt-12 hover:scale-105 transition-transform duration-300' 
+              className='h-8 sm:h-10 md:h-12 lg:h-16 xl:h-20 w-auto ml-2 sm:ml-4 md:ml-6 lg:ml-8 xl:ml-12 mt-2 sm:mt-4 md:mt-6 lg:mt-8 xl:mt-12 hover:scale-105 transition-transform duration-300' 
               src="https://static.wixstatic.com/media/f1c650_35a00b1fe6ce403eb237970ec8d34f79%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/f1c650_35a00b1fe6ce403eb237970ec8d34f79%7Emv2.png" 
               alt="logo" 
             />
@@ -77,7 +77,7 @@ const HeroSection = () => {
 
           {/* Main Content - Left Aligned */}
           <div className="flex-grow flex items-center">
-            <div className="transform-gpu ml-4 sm:ml-6 lg:ml-8 xl:ml-12 perspective-1000 mt-[5vh] sm:mt-[6vh] lg:mt-[8vh] xl:mt-[10vh]">
+            <div className="transform-gpu ml-2 sm:ml-4 md:ml-6 lg:ml-8 xl:ml-12 perspective-1000 mt-[3vh] sm:mt-[4vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[10vh]">
               <TiltText abc={tiltRef} />
             </div>
           </div>
