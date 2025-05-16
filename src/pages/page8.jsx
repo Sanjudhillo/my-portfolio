@@ -23,7 +23,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-400">
                             <li><a href="#ems" className="hover:text-white transition-colors">EMS System</a></li>
                             <li><a href="#game" className="hover:text-white transition-colors">Stone Paper Scissors</a></li>
-                            <li><a href="#ochidesign" className="hover:text-white transition-colors">OchiDesign</a></li>
+                            <li><a href="https://ochi-design-2vlu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">OchiDesign</a></li>
                             <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
                             <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
                         </ul>

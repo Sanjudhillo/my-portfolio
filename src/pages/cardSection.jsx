@@ -22,7 +22,7 @@ const CardSection = () => {
 
                 <div className="flex flex-col md:flex-row items-center justify-between h-full w-full p-2 sm:p-6 lg:p-[8vh] relative z-10 gap-2 sm:gap-6 lg:gap-8">
                     {/* EMS Project */}
-                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[45vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]"> 
+                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[38vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]"> 
                         <div className="p-4 sm:p-6 lg:p-8 h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
@@ -55,7 +55,7 @@ const CardSection = () => {
                     </div>
 
                     {/* Game Project */}
-                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[45vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
+                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[38vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
                         <div className="p-4 sm:p-6 lg:p-8 h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
@@ -68,27 +68,37 @@ const CardSection = () => {
                                     <ul className="mt-3 space-y-2 text-gray-300">
                                         <li className="group-hover:translate-x-2 group-hover:text-white transition-all text-sm sm:text-base lg:text-lg">• Interactive Gameplay</li>
                                         <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-75 text-sm sm:text-base lg:text-lg">• Score Tracking</li>
-                                        <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-100 text-sm sm:text-base lg:text-lg">• Responsive Design</li>
+                                        
                                         <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-150 text-sm sm:text-base lg:text-lg">• Smooth Animations</li>
                                         <li className="group-hover:translate-x-2 group-hover:text-white transition-all delay-200 text-sm sm:text-base lg:text-lg">• User-Friendly Interface</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="mt-auto pt-4 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
-                                <a 
-                                    href="https://github.com/Sanjudhillo/gameproject" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    className="rounded-full text-base sm:text-lg lg:text-xl px-4 sm:px-6 py-2 border-2 border-white/70 bg-transparent hover:bg-white/10 hover:border-white transition-all duration-300 text-white w-full text-center block"
-                                >
-                                    Play Game
-                                </a>
+                                <div className="flex gap-4 mt-4">
+                                    <a 
+                                        href="https://stone-paper-game-one.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 border border-cyan-400 text-cyan-400 font-[anzo2] hover:bg-cyan-400 hover:text-black transition-all duration-300"
+                                    >
+                                        Live Demo
+                                    </a>
+                                    <a 
+                                        href="https://github.com/Sanjudhillo/gameproject"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 bg-cyan-400 text-black font-[anzo2] hover:bg-transparent hover:text-cyan-400 hover:border hover:border-cyan-400 transition-all duration-300"
+                                    >
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Ochi Design Project */}
-                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[45vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
+                    <div className="group w-full md:w-[30%] h-[25vh] sm:h-[30vh] md:h-[40vh] lg:h-[38vh] border-[3px] border-white/70 bg-black/20 rounded-[15px] sm:rounded-[25px] lg:rounded-[32px] backdrop-blur-sm transition-all duration-800 hover:border-white hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/20 hover:h-[80vh]">
                         <div className="p-4 sm:p-6 lg:p-8 h-full flex flex-col justify-between">
                             <div className="flex-1">
                                 <div className="transition-all duration-800">
@@ -108,14 +118,24 @@ const CardSection = () => {
                                 </div>
                             </div>
                             <div className="mt-auto pt-4 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
-                                <a 
-                                    href="https://github.com/Sanjudhillo/ochidesign" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    className="rounded-full text-base sm:text-lg lg:text-xl px-4 sm:px-6 py-2 border-2 border-white/70 bg-transparent hover:bg-white/10 hover:border-white transition-all duration-300 text-white w-full text-center block"
-                                >
-                                    View Project
-                                </a>
+                                <div className="flex gap-4 mt-4">
+                                    <a 
+                                        href="https://ochi-design-2vlu.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 border border-cyan-400 text-cyan-400 font-[anzo2] hover:bg-cyan-400 hover:text-black transition-all duration-300"
+                                    >
+                                        Live Demo
+                                    </a>
+                                    <a 
+                                        href="https://github.com/Sanjudhillo/ochidesign"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 bg-cyan-400 text-black font-[anzo2] hover:bg-transparent hover:text-cyan-400 hover:border hover:border-cyan-400 transition-all duration-300"
+                                    >
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

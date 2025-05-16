@@ -59,7 +59,7 @@ const Page2 = () => {
             </div>
 
             {/* Logo Section */}
-            <div className='flex items-center justify-center scale-50 sm:scale-60 lg:scale-70 h-[12vh] sm:h-[14vh] lg:h-[16vh] w-[100vw] sm:w-[110vw] lg:w-[120vw]'>
+            <div className='flex items-center justify-center scale-50 sm:scale-60 lg:scale-70 h-[12vh] sm:h-[14vh] lg:h-[16vh] w-[100vw] sm:w-[110vw] lg:w-[100vw]'>
                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="4 0 2028.339 83" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2037 91" height="91" width="2037" data-type="ugc" role="img" aria-label="Tesla, Figma, Google+, BeHance monochrome Logo Design by Anzo Studio ">
                 <g>
                     <g filter="url(#b3e3b32c-99fe-4d7b-a6f9-ff5000655d82_comp-lmyox36t2)">

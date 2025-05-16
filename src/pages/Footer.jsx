@@ -24,10 +24,10 @@ const Footer = () => {
                         <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-cyan-800 bg-clip-text text-transparent">Quick Links</h3>
                         <ul className="space-y-2 text-gray-400">
                             <li><a href="#ems" className="hover:text-white transition-colors">EMS System</a></li>
-                            <li><a href="#game" className="hover:text-white transition-colors">Stone Paper Scissors</a></li>
-                            <li><a href="#ochidesign" className="hover:text-white transition-colors">OchiDesign</a></li>
+                            <li><a href="https://stone-paper-game-one.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Stone Paper Scissors</a></li>
+                            <li><a href="https://ochi-design-2vlu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">OchiDesign</a></li>
                             <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
-                            <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
+                            <li><a href="/#about" className="hover:text-white transition-colors">About</a></li>
                         </ul>
                     </div>
 

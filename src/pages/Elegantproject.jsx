@@ -30,10 +30,15 @@ const Elegantproject = () => {
                         {/* Enhanced Button Section */}
                         <div className="group relative">
                             <div className="absolute -left-1 sm:-left-2 md:-left-3 lg:-left-4 top-0 h-full w-1 bg-cyan-400 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
-                            <button className="rounded-3xl bg-transparent border-2 border-white px-4 sm:px-6 md:px-8 lg:px-20 py-1 sm:py-2 md:py-2 lg:py-2 uppercase font-[anzo2] text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:border-black transform group-hover:translate-x-4 text-xs sm:text-sm md:text-base lg:text-lg">
+                            <a 
+                                href="https://ochi-design-2vlu.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="rounded-3xl bg-transparent border-2 border-white px-4 sm:px-6 md:px-8 lg:px-20 py-1 sm:py-2 md:py-2 lg:py-2 uppercase font-[anzo2] text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:border-black transform group-hover:translate-x-4 text-xs sm:text-sm md:text-base lg:text-lg inline-block"
+                            >
                                 <span className="relative z-10">ochi design</span>
                                 <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-3xl"></div>
-                            </button>
+                            </a>
                             <div className="absolute -right-1 sm:-right-2 md:-right-3 lg:-right-4 top-0 h-full w-1 bg-cyan-400 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom delay-200"></div>
                         </div>
                     </div>
